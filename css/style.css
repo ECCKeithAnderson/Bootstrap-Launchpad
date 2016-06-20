@@ -1,0 +1,25 @@
+/* Try and make your CSS in order of how to elements appear in your HTML doccument. */
+
+
+/* Navigation */
+
+.navbar-default {
+    margin: 0;
+}
+
+/* End navigation */
+
+
+/* Jumbotron */
+
+.jumbotron {
+    background-image: url("../img/Background - Courtesy of Unsplash.com.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;;
+}
+.jumbotron .container {
+  color: #fff;
+  text-shadow: 0 0 10px rgb(178, 236, 255);
+}
+/* Jumbotron */

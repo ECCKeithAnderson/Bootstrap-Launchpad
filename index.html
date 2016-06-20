@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<!-- head -->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <!-- Webpage Title -->
+    <title>Keith's Starter Bootstrap Template</title>
+    <!-- Bootstrap includes -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="fa/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<!-- /head -->
+<!-- body -->
+
+<body>
+    <!-- navigation -->
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Brand</a>
+            </div>
+            <ul class="nav navbar-nav navbar-right collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <li><a href="#">Link One</a></li>
+                <li><a href="#">Link Two</a></li>
+                <li><a href="#">Link Three</a></li>
+            </ul>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <!-- /navigation -->
+
+    <!-- main content -->
+    <div class="main content">
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Kurwa, chuvak!</h1>
+        <p>This is a quick bootstrap template that includes everything you need to begin creating your first ever website! Everything is set up and ready to go so that you don't have to spend an hour doing the same thing every time you want to make a new bootstrap website, and it is designed for easy integration with any CMS. Everything is super well commented out as well, so even the least experienced website builders will find editing it easy.</p>
+        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+       </div>
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+      </div>
+    </div>
+    <!-- /main content -->
+
+    <!-- footer -->
+    <div class="container">
+      <hr>
+      <footer>
+        <p>&copy; 2016 Your name! Template by <a href="http://getyourdream.website">Keith Anderson</a>, Images by <a href="http://unsplash.com">Unsplash</a>, icons by <a href="http://fontawesome.io/">FontAwesome</a> and framework by <a href="http://getbootstrap.com">Bootstrap</a></p>
+      </footer>
+    </div>
+    <!-- /footer -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $('a').click(function() {
+            $('html, body, footer, section').animate({
+                scrollTop: $($(this).attr('href')).offset().top
+            }, 2000);
+            return false;
+        });
+    </script>
+</body>
+<!-- /body -->
+
+</html>
